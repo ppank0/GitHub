@@ -35,6 +35,11 @@ body{
     color: #d87775;
 }
 
+.pink:hover{
+    cursor: pointer;
+    text-decoration: underline #d87775;
+}
+
 .header{
     height: 74px;
     display: flex;
@@ -80,6 +85,13 @@ body{
     font-size: 15px;
     line-height: 24px;
     font-family: 'Inter', sans-serif;
+}
+.learn_button-enroll:hover,
+.header-button:hover{
+    background-color: #cf4b49c9;
+    border: 4px #d87775df;
+    transition: 0.5s;
+    cursor: pointer;
 }
 .main{
     padding: 0 155px;
@@ -195,6 +207,12 @@ body{
     font-size: 18px;
     line-height: 27px;
     font-family: 'Inter', sans-serif;
+}
+.learn_button-watch:hover{
+    background-color: #817f7fbd;
+    color: white;
+    transition: 0.7s;
+    cursor: pointer;
 }
 .img-player{
     width: 11.87px;
