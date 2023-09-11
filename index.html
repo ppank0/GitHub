@@ -14,7 +14,7 @@
 
             <div class="pre-header">
                 <div class="container pre-contant">
-                    <p>A Webflow template for video courses. </p><span class="pink">See all templates ></span>
+                    <p id="pre-header_text">A Webflow template for video courses. </p><span id="pre-header_pink" class="pink">See all templates ></span>
                 </div>
             </div>
 
@@ -24,10 +24,15 @@
                         <img class="header-logo" src="/img/Logo.svg" alt="Logo">
                     </div>
                     <div class="text-button">
-                        <p>LAUNCH A SUCCESSFUL PODCAST</p>
+                        <p id="header-title">LAUNCH A SUCCESSFUL PODCAST</p>
                         <div class="container-button">
-                            <button class="header-button">Enroll Now</button>
+                            <div class="change-lang">
+                                <span id="ru" class="ru">ru</span>
+                                |
+                                <span id="en" class="en">en</span>
+                            </div>
 
+                            <button id="btn-enroll_now" class="header-button">Enroll Now</button>
                         </div>
                     </div>
                 </div>
@@ -44,16 +49,16 @@
                     </div>
 
                     <div class="learn-texts">
-                        <p class="main-text">Learn How To Launch a Successful Podcast</p>
-                        <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p id="learn-title" class="main-text">Learn How To Launch a Successful Podcast</p>
+                        <p id="learn-p" class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="price">
                             <span class="learn_price-big">$189</span>
                             <p class="learn-price-small">$399</p>
                         </div>
                         <div class="container learn-buttons">
-                            <button class="learn_button-enroll">Enroll Now</button>
+                            <button id="btn-enroll_now-2" class="learn_button-enroll">Enroll Now</button>
                             <div class="learn_button_watch-container">
-                                <button class="learn_button-watch"><img class="img-player" src="/img/icons/button_watch_trailer.svg" alt="vector"> Watch Trailer</button>
+                                <button id="watch-btn" class="learn_button-watch"><img class="img-player" src="/img/icons/button_watch_trailer.svg" alt="vector"> Watch Trailer</button>
                             </div>
                         </div>
                         
@@ -66,19 +71,19 @@
             <div class="container-questions">
                 <div class="container_question micro">
                     <img class="question-img" src="/img/icons/micro.svg" alt="micro">
-                    <p class="question-heading">Learn what the best gear is and where to get it</p>
+                    <p id="micro-text" class="question-heading">Learn what the best gear is and where to get it</p>
                     <p class="question-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
                 <div class="container_question guests">
                     <img class="question-img" src="/img/icons/guests.svg" alt="guests">
-                    <p class="question-heading">How to find guests for your episodes</p>
+                    <p id="guests-text" class="question-heading">How to find guests for your episodes</p>
                     <p class="question-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
 
                 <div class="container_question coins">
                     <img class="question-img" src="/img/icons/coins.svg" alt="coins">
-                    <p class="question-heading">And how to finally make some money</p>
+                    <p id="coins-text" class="question-heading">And how to finally make some money</p>
                     <p class="question-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
@@ -90,7 +95,7 @@
                     <img class="Joyce_img" src="/img/Joyce_section.png" alt="photo">
                 </div>
                 <div class="Joyce-texts">
-                    <p class="text-head">Learn with Joyce and Rob, your podcast teachers</p>
+                    <p id="joyce-title" class="text-head">Learn with Joyce and Rob, your podcast teachers</p>
                     <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
@@ -101,7 +106,7 @@
             <div class="container container-editing">
                 
                 <div class="editing-texts">
-                    <p class="text-head">Get the editing skills you need to thrive</p>
+                    <p id="editing-title" class="text-head">Get the editing skills you need to thrive</p>
                     <p class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
@@ -471,5 +476,6 @@
             </div>
         </div>
     </footer>
+    <script src="/index.js"></script>
 </body>
 </html>

@@ -71,8 +71,34 @@ body{
     color: #757575;
     
 }
-.container-button{
-    
+.container-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.change-lang{
+    font-size: 18px;
+    color: #8d8c8c;
+}
+.change-lang span:hover{
+    cursor: pointer;
+}
+span.ru:hover {
+    color: #e48d8b;
+}
+.ru-clicked{
+    color: #e48d8b;
+    text-decoration: underline;
+    font-weight: 500;
+}
+span.en:hover{
+    color: #017cff;
+}
+.en-clicked {
+    color:#017cff;
+    text-decoration: underline;
+    font-weight: 500;
 }
 .header-button{
     color: #fff;
