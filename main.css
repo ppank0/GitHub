@@ -6,8 +6,20 @@
 body{
     width: 1440px;
     font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
 }
 
+:root {
+    --bg-color: #fff;
+    --title-color: #000;
+    --subtitle-color: #464646;
+    --bg-pre_header-color: #ededed;
+    --bg-footer-color: #fbfbfb;
+}
+
+.body p{
+    color: var(--title-color);
+}
 .border{
     border: #ababab dashed 2px;
     height: 860px;
@@ -17,7 +29,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ededed;
+    background-color: var(--bg-pre_header-color);
+    
 }
 
 .pre-contant{
@@ -163,13 +176,15 @@ span.en:hover{
     height: 84;
     font-size: 20px;
     line-height: 28px;
-    color: #464646;
+    color: var(--subtitle-color);
     margin: 0;
 }
 .main-text{
     font-size: 49px;
     line-height: 58.8px;
-    margin: 40px 0 18px
+    margin: 40px 0 18px;
+    color: var(--title-color);
+    
 }
 
 .price {
@@ -227,7 +242,7 @@ span.en:hover{
     background-color: #ededed;
     border: solid #ededed;
     padding: 0;
-
+    justify-content: center;
     color:#757575;
     font-weight: bold;
     font-size: 18px;
@@ -258,6 +273,7 @@ span.en:hover{
     height: 252px;
     display: flex;
     gap: 64px;
+    color: var(--title-color);
 }
 .container_question{
     width: 334px;
@@ -306,6 +322,7 @@ span.en:hover{
 .Joyce-texts{
     width: 500px;
     height: 258px;
+    color: var(--title-color);
 }
 
 .text-head{
@@ -340,6 +357,7 @@ span.en:hover{
 .editing-texts{
     width: 500px;
     height: 257px;
+    color: var(--title-color);
 }
 
 .included{
@@ -428,6 +446,7 @@ span.en:hover{
     font-size: 38px;
     font-weight: bold;
     line-height: 45.6px;
+    color: var(--title-color);
 }
 .Curriculum-items{
     width: 600px;
@@ -444,13 +463,13 @@ span.en:hover{
     align-items: center;
     padding: 18px 31px 18px 24px;
 
-    background-color: #ededed;
+    background-color: var(--bg-pre_header-color);
 }
 
 .Curriculum_item p{
     font-size: 19px;
     line-height: 30px;
-    color: #464646;
+    color: var(--subtitle-color);
     margin: 18px 0;
 }
 .Curriculum_item-arrow{
@@ -485,6 +504,7 @@ span.en:hover{
     font-weight: bold;
     line-height: 45.6px;
     margin: 0 0 62px 0;
+    color: var(--title-color);
 }
 .course-contant{
     height: 376px;
@@ -508,6 +528,7 @@ span.en:hover{
     margin: 0;
     font-size: 15px;
     line-height: 24px;
+    color: var(--title-color);
 }
 
 .Quote{
@@ -589,6 +610,7 @@ span.en:hover{
     font-size: 38px;
     line-height: 45.6px;
     margin: 0;
+    color: var(--title-color);
 }
 
 .any_questions-content{
@@ -610,6 +632,7 @@ span.en:hover{
     font-size: 22px;
     line-height: 30.8px;
     margin: 0;
+    color: var(--title-color);
 }
 .any-arrow{
     width: 16px;
@@ -664,7 +687,7 @@ span.en:hover{
     align-items: center;
     padding-top: 48px;
 
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 
 .podcast_card-premium{
@@ -675,7 +698,7 @@ span.en:hover{
     align-items: center;
     padding-top: 48px;
 
-    background-color: #fff;
+    background-color: var(--bg-color);
 }
 .card-icon{
     width: 40px;
@@ -685,7 +708,7 @@ span.en:hover{
     margin: 11px 0 16px;
     font-size: 38px;
     line-height: 45.6px;
-    color: #464646;
+    color: var(--subtitle-color);
 }
 
 .podcast-price{
@@ -720,7 +743,7 @@ span.en:hover{
 
     font-size: 17px;
     line-height: 27px;
-    color: #464646;
+    color: var(--subtitle-color);
 }
 .card-button{
     width: 208px;
@@ -760,7 +783,7 @@ span.en:hover{
     display: flex;
     gap: 26px;
 
-    color: #464646;
+    color: var(--subtitle-color);
     font-size: 17px;
     line-height: 25.2px;
 
@@ -843,7 +866,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fbfbfb;
+    background-color: var(--bg-footer-color);
 }
 
 .container-footer{
@@ -900,7 +923,7 @@ footer{
     font-size: 14px;
     line-height: 21px;
     letter-spacing: 1px;
-    color: #B1B1B1;
+    color: var(--subtitle-color);
     margin: 0 0 7px;
 }
 .container_site_admin li{
