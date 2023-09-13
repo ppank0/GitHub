@@ -152,7 +152,7 @@ function setLightTheme(root) {
 ///Смена картинки 
 var image = document.getElementById('video-img');
 const imageChangeBtn = document.querySelector('.learn_button-enroll');
-var srcImg2 = "/img/Joyce_section.png";
+var srcImg2 = "/img/editing_skills.png";
 var srcImg1 ="/img/learn_how_to_img.png";
 var currentImage = 1;
 
@@ -162,6 +162,23 @@ imageChangeBtn.addEventListener('click', function(){
     currentImage = 2;
   } else {
     image.src = srcImg1;
+    currentImage = 1;
+  }
+  
+});
+
+var player = document.getElementById('player-img');
+const playerBtnChange = document.querySelector('.learn_button-watch');
+var srcPause = "/img/icons/pause-icon.svg";
+var srcPlayer ="/img/icons/player.svg";
+var currentImage = 1;
+
+playerBtnChange.addEventListener('click', function(){
+  if (currentImage === 1) {
+    player.src = srcPause;
+    currentImage = 2;
+  } else {
+    player.src = srcPlayer;
     currentImage = 1;
   }
   
