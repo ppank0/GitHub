@@ -167,6 +167,7 @@ imageChangeBtn.addEventListener('click', function(){
   
 });
 
+var audioPlayer = document.getElementById('audioPlayer');
 var player = document.getElementById('player-img');
 const playerBtnChange = document.querySelector('.learn_button-watch');
 var srcPause = "/img/icons/pause-icon.svg";
@@ -175,11 +176,15 @@ var currentImage = 1;
 
 playerBtnChange.addEventListener('click', function(){
   if (currentImage === 1) {
+    audioPlayer.play();
     player.src = srcPause;
     currentImage = 2;
+    playerBtnChange.textContent ='pause';
   } else {
+    audioPlayer.pause();
     player.src = srcPlayer;
     currentImage = 1;
+    playerBtnChange.textContent = 'play';
   }
   
 });

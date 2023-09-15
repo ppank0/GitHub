@@ -202,6 +202,10 @@ span.en:hover{
     line-height: 38.4px;
     letter-spacing: 0.5px;
 }
+.learn_price-big:hover{
+    font-size: 35px;
+    color: #000000e0;
+}
 .learn-price-small {
     font-size: 20px;
     line-height: 22.4px;
